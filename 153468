@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ELON MUSK</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+   
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+    
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>FlexStart</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero"> < Home</a></li>
+           
+            
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+ 
+
+      <section id="team" class="team">
+
+        <div class="container" data-aos="fade-up">
+      
+          <header class="section-header">
+            
+            <p>Our hard working team</p>
+            <h2 class="mt-3">Team</h2>
+          </header>
+      
+          <div class="row gy-4">
+      
+          
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                  
+                </div>
+                <div class="member-info">
+                  <h4>Mega Yatch</h4>
+                  <span>24627300000.00 Rs</span>
+                   
+                  <p id="elon-count-1">0</p>
+                  <a class="btn-buy" onclick="ElonOut1(24627300000);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                  
+                </div>
+                <div class="member-info">
+                  <h4>Jet Gulfstream G450</h4>
+                  <span>1477638000.00 Rs</span>
+                  <p id="elon-count-2">0</p>
+                  <a class="btn-buy" onclick="ElonOut2(1477638000);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Helicopter Bell 206</h4>
+                  <span>69777350.00 Rs</span>
+                  <p id="elon-count-3">0</p>
+                  <a class="btn-buy" onclick="ElonOut3(69777350);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Bugatti La Voiture Noire</h4>
+                  <span>903001000.00 Rs</span>
+                  <p id="elon-count-4">0</p>
+                  <a class="btn-buy" onclick="ElonOut4(903001000);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+          <div class="row   mt-3">
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Tesla Bot (Available Soon)</h4>
+                  <span>1641820.00 Rs</span>
+                  <p id="elon-count-5">0</p>
+                  <a class="btn-buy" onclick="ElonOut5(1641820);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Custom Pc ( Max Spec )</h4>
+                  <span>570532.45 Rs</span>
+                  <p id="elon-count-6">0</p>
+                  <a class="btn-buy" onclick="ElonOut6(570532);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>PS5</h4>
+                  <span>40963.41 Rs</span>
+                  <p id="elon-count-7">0</p>
+                  <a class="btn-buy" onclick="ElonOut7(40963);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Iphone 14 Pro Max - 1TB</h4>
+                  <span>131263.51 Rs</span>
+                  <p id="elon-count-8">0</p>
+                  <a class="btn-buy" onclick="ElonOut8(131263);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+       
+          <div class="row  mt-3">
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Rolex Oyster</h4>
+                  <span>1149274.00 Rs</span>
+                  <p id="elon-count-9">0</p>
+                  <a class="btn-buy" onclick="ElonOut9(1149274);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                  
+                </div>
+                <div class="member-info">
+                  <h4>Monalisa ( Estimate )</h4>
+                  <span>71337079000.00 Rs</span>
+                  <p id="elon-count-10">0</p>
+                  <a class="btn-buy" onclick="ElonOut10(71337079000);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>L.A Mega Mansion</h4>
+                  <span>4268732000.00 Rs</span>
+                  <p id="elon-count-11">0</p>
+                  <a class="btn-buy" onclick="ElonOut11(4268732000);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                   
+                </div>
+                <div class="member-info">
+                  <h4>Private Island ( Medium Size )</h4>
+                  <span>406350450.00 Rs</span>
+                  <p id="elon-count-12">0</p>
+                  <a class="btn-buy" onclick="ElonOut12(406350450);elonoutput()">Buy Now</a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+
+          
+
+
+        </div>
+      
+        <div class="container d-flux mt-5 outdiv" style="padding-top: 50px; padding-bottom: 50px;">
+          <p id="elon-balancebox" ></p>
+          <p id="elon-persantagebox" > </p>
+        </div>
+         
+      </section><!-- End Team Section -->
+
+
+
+      <div style="background-color:#fafbff ;">
+        <div style="border-top: solid 1px #012970; width: 80%; margin-left:10% ;" ></div>
+      </div> 
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+ 
+
+    <div class="container">
+      
+      <div class="copyright">
+         
+        <div class="footer-info">
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-github"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+
+        
+      <div class="credits">
+         
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+    <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
