@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Pass a value using argument</title>
+</head>
+<body>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card 1</h5>
+    <input type="text" id="number1" value="0" />
+    <button id="increment1">Increment</button>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card 2</h5>
+    <input type="text" id="number2" value="0" />
+    <button id="increment2">Increment</button>
+  </div>
+</div>
+<script>
+const numberInputs = [
+  document.getElementById("number1"),
+  document.getElementById("number2"),
+];
+const incrementButtons = [
+  document.getElementById("increment1"),
+  document.getElementById("increment2"),
+];
+
+function incrementNumber(numberInput, incrementBy) {
+  const number = parseInt(numberInput.value);
+  numberInput.value = number + incrementBy;
+}
+
+incrementButtons[0].addEventListener("click", () => {
+  incrementNumber(numberInputs[0], 1);
+});
+
+incrementButtons[1].addEventListener("click", () => {
+  incrementNumber(numberInputs[1], 2);
+});
+</script>
+</body>
+  </html>
